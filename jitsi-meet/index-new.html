@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Publeesh Video Meeting</title>
+    <link rel="icon" type="image/x-icon" href="logo.svg">
+  </head>
+  <style>
+    body {
+      font-family: sans-serif;
+      height: 100vh;
+    }
+
+    .header {
+      border-bottom: 1px solid #dcdee6;
+      padding: 24px 40px 24px, 40px;
+    }
+    .header h1 {
+      color: #ff0238;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    main .videoplaceholder {
+        width: 100%;
+    }
+
+    main .title {
+      display: flex;
+      flex-direction: column;
+    }
+
+    main .title h2 {
+      font-size: 34px;
+      color: #292b33;
+      font-weight: 500;
+      line-height: 40px;
+      text-align: center;
+    }
+
+    main .title p {
+      font-size: 16px;
+      color: #6b6f80;
+      text-align: center;
+      margin-top: -14px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 20px;
+    }
+
+    button {
+      padding: 8px 16px 8px 16px;
+      border-radius: 8px;
+      line-height: 24px;
+      font-weight: 500;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+
+    .buttons .btn-1 {
+      display: flex;
+      gap: 8px;
+      background-color: #000000;
+      border: 1px solid #000000;
+      color: #ffffff;
+      cursor: pointer;
+    }
+    .buttons .btn-2 {
+      background-color: #fafafa;
+      border: 1px solid #3e414c;
+      color: #3e414c;
+      cursor: pointer;
+    }
+
+    .btn-3 {
+      background-color: #ffffff;
+      border: 1px solid #3e414c;
+      color: #3e414c;
+      cursor: pointer;
+    }
+
+     .buttons .btn-1:hover {
+        background-color: #3E414C;
+    }
+    .buttons .btn-2:hover {
+        background-color: #ffffff;
+       
+    }
+
+    .btn-3:hover {
+        background-color: #fafafa;
+    }
+
+    @media only screen and (max-width: 600px) {
+       .buttons {
+         flex-direction: column;
+         gap: 2px;
+    }
+}
+  </style>
+  <body>
+    <header class="header">
+      <h1>Publeesh</h1>
+    </header>
+    <main>
+      <img
+        src="/videoplaceholder.svg"
+        width="248px"
+        height="249px"
+        alt="videoplaceholder"
+        class="videoplaceholder"
+      />
+      <div class="title">
+        <h2>You left the session</h2>
+        <p>Have a nice day</p>
+      </div>
+
+      <div class="buttons">
+        <button class="btn-1"><img src="iconleft.svg" height="24px" width="24px" alt="iconleft"/>Rejoin</button>
+        <a href="https://staging.publeesh.com/portal/events"/><button class="btn-2">Return to Events</button></div>
+      </div>
+      <a href="https://staging.publeesh.com/contact"/><button class="btn-3">Send Feedback</button></div>
+    </main>
+  </body>
+</html>
