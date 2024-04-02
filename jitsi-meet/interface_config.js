@@ -82,7 +82,7 @@ var interfaceConfig = {
      */
     HIDE_INVITE_MORE_HEADER: false,
 
-    JITSI_WATERMARK_LINK: 'https://publeesh.com',
+    JITSI_WATERMARK_LINK: '',
 
     LANG_DETECTION: true, // Allow i18n to detect the system language
     LOCAL_THUMBNAIL_RATIO: 16 / 9, // 16:9
@@ -146,7 +146,7 @@ var interfaceConfig = {
      * If indicated some of the error dialogs may point to the support URL for
      * help.
      */
-    SUPPORT_URL: 'https://community.jitsi.org/',
+    SUPPORT_URL: '',
 
     // Browsers, in addition to those which do not fully support WebRTC, that
     // are not supported and should show the unsupported browser page.
