@@ -86,3 +86,4 @@ self.addEventListener('fetch', event => {
     // event.respondWith(), the request will be handled by the browser as if there
     // were no service worker involvement.
 });
+ 
